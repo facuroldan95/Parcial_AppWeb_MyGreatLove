@@ -1,0 +1,37 @@
+MyGreatLove
+
+Facundo Roldán 2W50 109505 
+
+#Parejas
+1)Es un sistema en donde una pareja se da el alta ingresando los datos de ambos conyugues, siguiendo con la creación de una cuenta de usuario para ambos.
+2)Una vez logrado crear la cuenta, iniciamos sesión en donde se podrá ver los datos de la pareja con el codigo para sus invitados, tambien
+la lista de operaciones de la cuenta con respecto a sus compras  y el listado de los depositos que fueron dejando los invitados.
+3)Segun los deposios efectuados por sus invitados, será el fondo de dinero que tendrá la pareja para realizar compras en la tienda.
+4)En la tienda "Articulos", podra generar un carrito comprando varios articulos, o comprar individualmente.
+
+
+#Invitados
+1)Para los invitados, no es necesario darse de alta, con solo buscar en el menu "Enviar Regalo", podrán por medio del codigo de invitación enviado
+por la pareja, depositar su regalo en $.
+
+#Admin
+Cuenta Administración: Usuario: admin Password: admin
+
+1)Iniciando sesión con la cuenta de administración podra ver el portal con funciones administrativas.
+2)Administrar parejas, podra modificar sus datos personales como tambien su cuentas de usuario.
+2b)En la misma pagina, podrá activar o desactivar cuentas de usuario ya sea por distintas razones que sean consideradas.
+2c)En la administración de parejas, se podrán visualizar las ganancias generadas por depositos de cada pareja.
+3)En la función Visualizar listado de operaciones, podran ver las ganancias generadas por la venta articulos que han adquirido distintas parejas.
+4)En la funcion del TOP 5 ventas, se obtendrá información de los articulos mas buscados, no por cantidad de ventas, sino por elección.
+5) Por ultimo, tendrá la opción de cargar articulo, ingresando los datos correspondiente para su cargado.
+
+#Datos a tener en cuenta:
+
+1)El administrador, en el listado de productos en ves de tener la opción comprar tendrá la opción editar para cambiar datos de los productos, mientras
+que un usuario normal esta opción no estará disponible, sino que es remplazado por el boton "Comprar".
+
+2)Validaciones a nivel de Iniciar Sesión para ver algunas funciones como tambien a nivel administrativo para tener funciones de gestión.
+
+3)Los Articulos si quedan sin stock automaticamente desaparece del listado, a menos que este logeado como Administrador que si va seguir apareciendo.
+
+4)Las cuentan con bajas logicas se las consideran suspendidas, al intentar iniciar sesión estas recibiran un aviso alertando la suspensión.
